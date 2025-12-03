@@ -1,2 +1,2 @@
-mrroy: python -m MAFU
+mrroy: python -m Biolink
 
