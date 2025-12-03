@@ -1,3 +1,4 @@
+#𝐀𝐚𝐬𝐡𝐢𝐤 𝐓ᴇᴀᴍ
 import asyncio
 from config import OWNER_ID
 from pyrogram import *
