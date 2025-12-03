@@ -3,7 +3,7 @@ import psutil
 import platform
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from MAFU import MAFU as app
+from Biolink import Biolink as app
 from config import OWNER_ID
 
 # Import your user/chat count functions
