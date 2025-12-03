@@ -2,8 +2,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 from pyrogram.enums import ChatType
 from config import OWNER_ID, BOT_USERNAME
-from MAFU import MAFU as app
-from MAFU.helper.database import add_user, add_chat
+from Biolink import Biolink as app
+from Biolink.helper.database import add_user, add_chat
 
 START_IMG = "https://files.catbox.moe/05x8mv.jpg"
 
