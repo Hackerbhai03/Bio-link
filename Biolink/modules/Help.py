@@ -2,7 +2,6 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from Biolink import Biolink as app
 
-# Show Help Menu
 @app.on_callback_query(filters.regex("^show_help$"))
 async def show_help(_, query: CallbackQuery):
     keyboard = InlineKeyboardMarkup(
