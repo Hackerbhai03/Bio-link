@@ -8,8 +8,8 @@ from Biolink import Biolink as app
 from config import OWNER_ID
 
 # Import your user/chat count functions
-from MAFU.helper.usersdb import get_users
-from MAFU.helper.chatsdb import get_chats
+from Biolink.helper.usersdb import get_users
+from Biolink.helper.chatsdb import get_chats
 
 START_TIME = time.time()
 
