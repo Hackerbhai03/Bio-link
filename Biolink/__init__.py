@@ -35,7 +35,7 @@ Biolink = Client(
 async def Biolink_bot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
     await Biolink.start()
-    getme = await MAFU.get_me()
+    getme = await Biolink.get_me()
     BOT_ID = getme.id
     BOT_USERNAME = getme.username
     if getme.last_name:
