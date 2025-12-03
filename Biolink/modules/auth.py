@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from MAFU import MAFU as app
-from MAFU.helper.auth import add_auth, remove_auth, get_auth_users
-from MAFU.helper.admin import is_admins
+from Biolink import Biolink as app
+from Biolink.helper.auth import add_auth, remove_auth, get_auth_users
+from Biolink.helper.admin import is_admins
 
 def format_user(user):
     username = f"@{user.username}" if user.username else "No Username"
