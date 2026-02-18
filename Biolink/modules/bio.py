@@ -116,7 +116,7 @@ async def bio_filter_handler(client, message):
     # ----------------- Warn User -----------------
     try:
         warn = await message.reply_text(
-            f"⚠️ {mention}, **bio me link/username allowed nahi hai!**",
+            f"⚠️ {mention}, **ᴘʟᴇᴀꜱᴇ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ʟɪɴᴋ ꜰʀᴏᴍ ʏᴏᴜʀ ʙɪᴏ ᴛᴏ ᴀᴠᴏɪᴅ ᴍᴜᴛᴇ!**",
             parse_mode=enums.ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Close", callback_data="close")]]
