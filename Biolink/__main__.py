@@ -13,8 +13,8 @@ async def roy_bot():
         importlib.import_module("Biolink.modules." + all_module)
     print("• @aashikmusicbot B𝗈𝗍 Started Successfully.")
     await idle()
-    print("• Don't edit baby, otherwise you get an error: @networkxlog")
-    await MAFU.send_message(LOGGER_ID, "**✦ ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n✦ ᴊᴏɪɴ - @shivang_xd**")
+    print("• Don't edit baby, otherwise you get an error: @about_kanhaa")
+    await MAFU.send_message(LOGGER_ID, "**✦ ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n✦ ᴊᴏɪɴ - @about_kanhaa**")
 
 if __name__ == "__main__":
     loop.run_until_complete(roy_bot())
