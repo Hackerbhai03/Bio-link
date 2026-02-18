@@ -21,8 +21,8 @@ async def show_help(_, query: CallbackQuery):
 async def help_admin(_, query: CallbackQuery):
     await query.message.edit_text(
         """**Admin Commands:**
-• /auth - bio user
-• /rmauth - bio user
+• /free - bio user
+• /unfree - bio user
 • /biolink on
 • /biolink off""",
         reply_markup=InlineKeyboardMarkup(
