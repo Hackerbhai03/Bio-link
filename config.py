@@ -13,8 +13,8 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
 
 # -----------------------------------------------
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "8056154987"))
-SPECIAL_ID = int(os.environ.get("SPECIAL_ID", "8056154987"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7682307978"))
+SPECIAL_ID = int(os.environ.get("SPECIAL_ID", "7682307978"))
 # ------------------------------------------------
 
 # ------------------------------------------------
