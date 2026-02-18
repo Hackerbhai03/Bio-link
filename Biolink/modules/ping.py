@@ -36,7 +36,7 @@ async def ping_command(_, message: Message):
 
     buttons = [
         [
-            InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/networkxlog")
+            InlineKeyboardButton("υᴘᴅᴀᴛᴇ", url="https://t.me/About_kanhaa")
         ]
     ]
 
